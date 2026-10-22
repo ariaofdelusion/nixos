@@ -160,17 +160,6 @@
     ];
   };
 
-#   programs.starship.enable = true;
-#   programs.starship.settings = {
-#     "$schema" = "https://starship.rs/config-schema.json";
-#     format = "$all";
-#     right_format = '';
-#     continuation_prompt = '[∙](bright-black) ';
-#     scan_timeout = 30;
-#     command_timeout = 1000;
-#     add_newline = false;
-#   };
-
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.cudaSupport = true;

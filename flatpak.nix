@@ -4,8 +4,8 @@ let
   nix-flatpak = pkgs.fetchFromGitHub {
     owner = "gmodena";
     repo = "nix-flatpak";
-    rev = "v0.8.0";
-    hash = "sha256-7ZCulYUD9RmJIDULTRkGLSW1faMpDlPKcbWJLYHoXcs=";
+    rev = "latest";
+    hash = "sha256-OsZ/I7v3ArCrk0XOUvkiU1dFtGtE1qZTHRGjvBXIKUU=";
   };
 in
 {

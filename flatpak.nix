@@ -22,7 +22,6 @@ in
     enable = true;
     packages = [
       "moe.sable.client"
-      "app.twintaillauncher.ttl"
     ];
   };
 }

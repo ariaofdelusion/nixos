@@ -199,6 +199,7 @@
     vscode
     bash-completion
     git
+    unrar
   ];
 
   fonts.packages = with pkgs; [

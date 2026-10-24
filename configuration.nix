@@ -200,6 +200,7 @@
     bash-completion
     git
     unrar
+    heroic
   ];
 
   fonts.packages = with pkgs; [
